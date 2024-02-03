@@ -1,5 +1,8 @@
 package main
 
+/*
+https://leetcode.com/problems/add-digits/
+*/
 import "fmt"
 
 func main() {
@@ -19,6 +22,7 @@ func addDigits(num int) int {
 		new_num := 0
 
 		for cur != 0 {
+
 			d := 0
 			cur, d = divMod(cur, 10)
 			new_num += d
