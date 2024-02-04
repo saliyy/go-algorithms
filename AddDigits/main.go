@@ -15,21 +15,15 @@ func divMod(x, y int) (int, int) {
 }
 
 func addDigits(num int) int {
-
 	for num > 10 {
 		cur := num
-
 		new_num := 0
-
 		for cur != 0 {
-
 			d := 0
 			cur, d = divMod(cur, 10)
 			new_num += d
 		}
-
 		num = new_num
 	}
-
 	return num
 }
