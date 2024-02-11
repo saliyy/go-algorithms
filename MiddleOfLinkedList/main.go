@@ -2,6 +2,9 @@ package main
 
 import "math"
 
+/*
+https://leetcode.com/problems/middle-of-the-linked-list/submissions/1172180709/
+*/
 type ListNode struct {
 	Val  int
 	Next *ListNode
