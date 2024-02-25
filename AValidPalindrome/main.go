@@ -7,10 +7,10 @@ import (
 
 func main() {
 	s := "0P"
-
-	//fmt.Println(unicode.IsLetter(rune(s[0])))
 	fmt.Println(isPalindrome(s))
 }
+
+//https://leetcode.com/problems/valid-palindrome/submissions/1185780012/
 
 func isPalindrome(s string) bool {
 	l, r := 0, len(s)-1
