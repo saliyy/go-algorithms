@@ -8,6 +8,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
 func main() {
 	nums := []int{-10, -3, 0, 5, 9}
 
