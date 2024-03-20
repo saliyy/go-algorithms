@@ -43,6 +43,8 @@ func remove(s string) string {
 
 }
 
+//https://leetcode.com/problems/backspace-string-compare
+
 func backspaceCompare(s string, t string) bool {
 	s = remove(s)
 	t = remove(t)

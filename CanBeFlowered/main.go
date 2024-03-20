@@ -50,6 +50,5 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 		}
 	}
 
-	fmt.Println(placesToPlantCount)
 	return placesToPlantCount >= n
 }
