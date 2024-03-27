@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 func main() {
 	fmt.Println(twoSum([]int{0, 0, 3, 4}, 0))
 }
