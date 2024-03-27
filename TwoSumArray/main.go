@@ -14,8 +14,6 @@ func twoSum(numbers []int, target int) []int {
 	for l <= r {
 		sum = numbers[l] + numbers[r]
 
-		fmt.Println(sum)
-
 		if sum == target {
 			return []int{l + 1, r + 1}
 		}
